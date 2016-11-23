@@ -4,5 +4,6 @@ node_js:
    - "0.12"
    - "4"
 before_install:
-  - "pip install mitmproxy==0.17"
+  - "python --version"
+  - "pip install --user mitmproxy==0.17"
 sudo: false
