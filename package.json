@@ -32,7 +32,8 @@
   },
   "devDependencies": {
     "mocha": "7.1.2",
-    "shelljs": "^0.6.0"
+    "shelljs": "^0.6.0",
+    "puppeteer": "3.0.4"
   },
   "main": "src/js/utils/api.js",
   "bin": "src/js/commands/jalangi.js"
